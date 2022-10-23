@@ -9,7 +9,7 @@
   "display": "standalone", 
   "icons": [
       {
-        "src": "/PWA-Calculation/img/icon.png",
+        "src": "/PWA-Calculation/img/DSD_Icon.png",
         "type": "image/png",
         "sizes": "700x700"
       }
