@@ -10,14 +10,46 @@
 </head>
 <body>
  
-  <h1>GitHub page as PWA template</h1>
-  <p>
-    This is a PWA template for GitHub pages. 
-    Make sure to check the README at 
-    <a href="https://github.com/Orzxd/PWA-Calculation/">https://github.com/Orzxd/PWA-Calculation/</a> and 
-    to change the necessary settings to your needs.
-  </p>
+ <header>
+        <p><a class="logo"><img src="img/Drainage_Services_Department_logo.png" 
+                                width="50" 
+                                height="50"
+                                alt="Calculation"></a></p>
+ </header>
+ <main>
+        <label for="Number_visited">No. of A3 or A4 size drawing visited:</label>
+        <input type="number" id="num_visted" name="num_visted" onchange="Calc()" required
+        minlength="4" maxlength="8" size="10">
+        
+        <label for="Number_A0">No. of A0 size drawing sold:</label>
+        <input type="number" id="num_A0" name="num_A0" onchange="Calc()" required
+        minlength="4" maxlength="8" size="10">
 
+        <label for="Number_A3">No. of A3 size drawing sold:</label>
+        <input type="number" id="num_A3" name="num_A3" onchange="Calc()" required
+        minlength="4" maxlength="8" size="10">
+
+        <label for="Number_A4">No. of A4 size drawing sold:</label>
+        <input type="number" id="num_A4" name="num_A4" onchange="Calc()" required
+        minlength="4" maxlength="8" size="10">
+
+        <label for="cost_visited">Cost of A3 or A4 size drawing visited:</label>
+        <input type="number" id="cost_visted" name="cost_visted" onchange="Calc()" required
+        minlength="4" maxlength="8" size="10">
+
+        <label for="cost_A0">Cost of A0 size drawing sold:</label>
+        <input type="number" id="cost_A0" name="cost_A0" onchange="Calc()" required
+        minlength="4" maxlength="8" size="10">
+
+        <label for="cost_A3">Cost of A3 size drawing sold:</label>
+        <input type="number" id="cost_A3" name="cost_A3" onchange="Calc()" required
+        minlength="4" maxlength="8" size="10">
+
+        <label for="cost_A4">Cost of A4 size drawing sold:</label>
+        <input type="number" id="cost_A4" name="cost_A4" onchange="Calc()" required
+        minlength="4" maxlength="8" size="10">
+    </main>
+   
   <script>
       if (navigator.serviceWorker) {
         navigator.serviceWorker.register (
