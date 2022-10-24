@@ -6,6 +6,7 @@ let cost_visited =  document.getElementById('cost_visted');
 let cost_A0 =  document.getElementById('cost_A0');
 let cost_A3 =  document.getElementById('cost_A3');
 let cost_A4 =  document.getElementById('cost_A4');
+let cost_total =  document.getElementById('cost_total');
 
 function Calc(){
     if (Num_visited.value.length === 0) {
@@ -25,6 +26,7 @@ function Calc(){
     cost_A0.value = Num_A0.value * 76;
     cost_A3.value = Num_A3.value * 1.5;
     cost_A4.value = Num_A4.value * 1.3;
+    cost_total.value = cost_visited.value + cost_A0.value + cost_A3.value + cost_A4.value
 }
 
 
