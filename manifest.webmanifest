@@ -1,6 +1,6 @@
 {
-  "name": "Github Page PWA",
-  "short_name": "GPPWA",
+  "name": "PWA-Calculation",
+  "short_name": "Calculation",
   "description": "Github Page as a Progressive Web App",
   "scope": "/PWA-Calculation/",
   "start_url": "/PWA-Calculation/",
