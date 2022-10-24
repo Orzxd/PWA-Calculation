@@ -26,7 +26,7 @@ function Calc(){
     cost_A0.value = Num_A0.value * 76;
     cost_A3.value = Num_A3.value * 1.5;
     cost_A4.value = Num_A4.value * 1.3;
-    cost_total.value = cost_visited.value + cost_A0.value + cost_A3.value + cost_A4.value;
+    cost_total.value = (Num_visited.value * 7.3) + (Num_A0.value * 76) + (Num_A3.value * 1.5) + (Num_A4.value * 1.3);
 }
 
 
